@@ -1,0 +1,38 @@
+[
+  {
+    "source_ip": "185.220.101.45",
+    "destination_ip": "10.0.10.15",
+    "hostname": "WIN10-FINANCE-01",
+    "username": "Administrator",
+    "process_name": "Security-Auditing",
+    "event_id": 4625,
+    "severity": "High",
+    "event_description": "Repeated failed Windows logon attempts (18 failures in 45s)",
+    "is_simulated": true,
+    "failed_count": 18
+  },
+  {
+    "source_ip": "10.0.12.88",
+    "destination_ip": "10.0.10.22",
+    "hostname": "WIN10-DEV-04",
+    "username": "f.abbasi",
+    "process_name": "powershell.exe",
+    "event_id": 4104,
+    "severity": "Critical",
+    "event_description": "powershell.exe -NoP -NonI -W Hidden -enc JABjAGwAaQBlAG4AdAA=",
+    "is_simulated": true,
+    "failed_count": 0
+  },
+  {
+    "source_ip": "192.168.1.210",
+    "destination_ip": "10.0.10.5",
+    "hostname": "WIN10-SERVER-02",
+    "username": "NETWORK SERVICE",
+    "process_name": "svchost.exe",
+    "event_id": 5156,
+    "severity": "Medium",
+    "event_description": "Rapid internal port scan detected across 48 ports",
+    "is_simulated": true,
+    "failed_count": 0
+  }
+]
